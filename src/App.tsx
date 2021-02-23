@@ -1,6 +1,6 @@
-import './App.css';
+import './styles/globals.css';
 
-function App() {
+export function App() {
   return (
     <div className="App">
       Hello World
