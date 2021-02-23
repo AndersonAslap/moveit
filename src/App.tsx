@@ -1,9 +1,11 @@
+import { ExperienceBar } from './components/ExperienceBar';
+
 import './styles/globals.css';
 
 export function App() {
   return (
-    <div className="App">
-      Hello World
+    <div className="container">
+      <ExperienceBar />
     </div>
   );
 }
